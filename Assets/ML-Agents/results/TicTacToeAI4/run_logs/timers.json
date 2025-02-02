@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1658067356",
+        "python_version": "3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) \n[Clang 6.0 (clang-600.0.57)]",
+        "command_line_arguments": "/Library/Frameworks/Python.framework/Versions/3.8/bin/mlagents-learn --run-id=TicTacToeAI4",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.8.1",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1658067428"
+    },
+    "total": 72.06048849999999,
+    "count": 1,
+    "self": 0.01394508299998165,
+    "children": {
+        "run_training.setup": {
+            "total": 0.025034749999999995,
+            "count": 1,
+            "self": 0.025034749999999995
+        },
+        "TrainerController.start_learning": {
+            "total": 72.021508667,
+            "count": 1,
+            "self": 0.0001650420000203212,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 72.02124537499999,
+                    "count": 1,
+                    "self": 72.02124537499999
+                },
+                "TrainerController._save_models": {
+                    "total": 9.824999999352713e-05,
+                    "count": 1,
+                    "self": 9.824999999352713e-05
+                }
+            }
+        }
+    }
+}
