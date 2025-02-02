@@ -1,0 +1,93 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Users/daniel/Downloads/UnityEditorFolder/2020.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/daniel/Downloads/UnityEditorFolder/test_games/tic_tac_toe
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52003
+Successfully changed project path to: /Users/daniel/Downloads/UnityEditorFolder/test_games/tic_tac_toe
+/Users/daniel/Downloads/UnityEditorFolder/test_games/tic_tac_toe
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.57 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path /Users/daniel/Downloads/UnityEditorFolder/2020.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/daniel/Downloads/UnityEditorFolder/test_games/tic_tac_toe/Assets
+GfxDevice: creating device client; threaded=0
+2025-01-03 01:46:01.809 Unity[98998:5343861] (null) preferred device: Apple M1 (high power)
+2025-01-03 01:46:01.809 Unity[98998:5343861] Metal devices available: 1
+2025-01-03 01:46:01.809 Unity[98998:5343861] 0: Apple M1 (high power)
+2025-01-03 01:46:01.810 Unity[98998:5343861] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Users/daniel/Downloads/UnityEditorFolder/2020.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/daniel/Downloads/UnityEditorFolder/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Users/daniel/Downloads/UnityEditorFolder/2020.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56998
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/daniel/Downloads/UnityEditorFolder/2020.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001675 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 48.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.896 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006779 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 50.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.228 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/daniel/Downloads/UnityEditorFolder/2020.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2536 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 109.9 MB.
+System memory in use after: 110.0 MB.
+
+Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2957.
+Total: 2.417750 ms (FindLiveObjects: 0.276542 ms CreateObjectMapping: 0.069917 ms MarkObjects: 1.909000 ms  DeleteObjects: 0.161208 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TicTacToePlayerAgent.cs
+  artifactKey: Guid(df4135ab411cb4f48b842e32594a631f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TicTacToePlayerAgent.cs using Guid(df4135ab411cb4f48b842e32594a631f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71c6fb9e1727dd572ee143009a334075') in 0.237472 seconds
+  Import took 0.243286 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.068 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2529 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.7 MB.
+System memory in use after: 191.8 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 2961.
+Total: 1.769958 ms (FindLiveObjects: 0.148333 ms CreateObjectMapping: 0.048334 ms MarkObjects: 1.479791 ms  DeleteObjects: 0.092750 ms)
+
